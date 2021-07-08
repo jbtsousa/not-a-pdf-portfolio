@@ -1,0 +1,31 @@
+
+body{
+  height:100vh;
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+
+@font-face {
+  font-family: Strawford-Regular;
+  src: url('../css/font/strawford-regular-webfont.ttf');
+}
+@font-face {
+  font-family: Strawford-Italic;
+  src: url('../css/font/strawford-regularitalic-webfont.ttf');
+}
+@font-face {
+  font-family: EBGaramond;
+  src: url('../css/font/EBGaramond-Regular.ttf');
+}
+
+h1,h2,h3{
+  font-family: Strawford-Regular;
+}
+p,a{
+  font-family: EBGaramond;
+
+}
+body{
+  color:white;
+}

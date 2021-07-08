@@ -1,0 +1,32 @@
+
+#intro{
+  height: 100vh;
+}
+#intro h1{
+  color:white;
+  font-size: 3em;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 510vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+
+  }
+  
+  #outer-container {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    -ms-overflow-style: none;
+  }
+  #cont-projetos{
+    display: flex;
+    margin: 10% 5%;
+  }
+

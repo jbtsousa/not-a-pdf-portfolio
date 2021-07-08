@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/general.css'>
+
+
+    <script src='projetos.js'></script>
+</head>
+<body>
+
+    <div id="outer-container">
+
+        <div id="container">
+
+            <section id="intro">
+                <h1>this is not a pdf portfolio</h1>
+                <p>é um website, porque websites são mais divertidos que pdf's </p>
+            </section>
+
+            <section id="projectos">
+                <div id="cont-projetos"></div>
+
+            </section>
+        </div> 
+    </div>
+  
+</body>
+
+<script>
+console.log(data);
+
+var num_proj= data.length;
+var projetos = document.getElementById("cont-projetos");
+
+for(var i=0;i<num_proj;i++){
+var proj = document.createElement('div');
+projetos.appendChild(proj);
+
+var proj_nome= document.createElement('h3');
+proj_nome.innerText = data[i].nome;
+proj.appendChild(proj_nome);
+
+
+}
+
+
+
+
+
+</script>
+
+</html>
