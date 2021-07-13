@@ -1,9 +1,12 @@
+html {
+  overflow-x: auto;
 
+  scroll-behavior: smooth;
+}
 body{
   height:100vh;
   background: rgb(63,94,251);
   background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-
 }
 
 @font-face {
@@ -19,7 +22,7 @@ body{
   src: url('../css/font/EBGaramond-Regular.ttf');
 }
 
-h1,h2,h3{
+h1,h2,h3,h4,button{
   font-family: Strawford-Regular;
 }
 p,a{

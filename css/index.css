@@ -1,22 +1,101 @@
 
 #intro{
   height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#intro h1{
-  color:white;
-  font-size: 3em;
+#cont-projetos{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+#filtros{
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  z-index: 100;
+
+}
+
+.proj{
+  width:40vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.show {
+  display: flex;
+}
+.but.active {
+  background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5));
+  color: white;
+}
+.but{
+  background-color: Transparent;
+  background-repeat:no-repeat;  
+  padding:1% 2% ;
+  font-size: 1.2em;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin: 1% 1%;
+  color: white;
+
+}
+
+.but:hover{
+cursor: pointer;
+box-shadow: 0px 0px 4px #ffff;transition: 0.3s;
+}
+
+.img-cont{
+  width: 450px;
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position:absolute;
+}
+.img-cont img{
+  width:100%;
+  height:100%;
+  z-index: -3;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+  object-fit: cover;
+}
+.proj:hover .img-cont img{
+  opacity: 1;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+.img-cont:hover{
+  cursor: pointer;
+}
+.proj-cont{
+  width: 90%;
+  z-index: 5;
+  position:absolute;
+
+}
+
 #container {
     display: flex;
     flex-direction: row;
-    width: 510vw;
     transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
+   transform-origin: top left;
+   overflow: auto;
 
   }
   
   #outer-container {
-    width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
@@ -25,8 +104,28 @@
     position: absolute;
     -ms-overflow-style: none;
   }
-  #cont-projetos{
-    display: flex;
-    margin: 10% 5%;
+
+  #intro-cont h1{
+    color:white;
+    font-size: 4em;
+  }
+  #intro-cont p{
+    font-size: 1.5em;
+  }
+  .proj h2{
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .proj h3{
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+  .proj h4{
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  .proj .ambito{
+    position: absolute;
+    top:580px;
   }
 

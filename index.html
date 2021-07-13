@@ -8,22 +8,34 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/general.css'>
+    <script src='projetos-data.js'></script>
 
-
-    <script src='projetos.js'></script>
 </head>
 <body>
+    <div id="filtros">
+        <button id="tudo" class="but active" onClick="filterSelection('all')"> Todos</button>
+        <button id="coding" class="but" onClick="filterSelection('coding')"> Coding </button>
+        <button id="interacao" class="but" onClick="filterSelection('interação')"> Interação</button>
+        <button id="tipo" class="but" onClick="filterSelection('tipografia')"> Tipografia</button>
+        <button id="web" class="but" onClick="filterSelection('web')"> Web</button>
+        <button id="video" class="but" onClick="filterSelection('vídeo')">Vídeo </button>
+        <button id="som" class="but" onClick="filterSelection('design-de-som')">Design de Som</button>
+      </div>
 
     <div id="outer-container">
 
         <div id="container">
 
             <section id="intro">
+                <div id="intro-cont">
                 <h1>this is not a pdf portfolio</h1>
                 <p>é um website, porque websites são mais divertidos que pdf's </p>
+            
+
+                </div>
             </section>
 
-            <section id="projectos">
+            <section id="projetos">
                 <div id="cont-projetos"></div>
 
             </section>
@@ -33,26 +45,52 @@
 </body>
 
 <script>
-console.log(data);
+
 
 var num_proj= data.length;
 var projetos = document.getElementById("cont-projetos");
 
 for(var i=0;i<num_proj;i++){
+    
 var proj = document.createElement('div');
+var tag = data[i].tags.join(" ");
+proj.className= "proj " + tag ;
 projetos.appendChild(proj);
 
-var proj_nome= document.createElement('h3');
+var cover= data[i].galeria[0];
+var img_cont = document.createElement('div');
+img_cont.className="img-cont";
+img_cont.id = data[i].id;
+img_cont.style.backgroundImage = 'linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4))';
+proj.appendChild(img_cont); 
+
+var img = document.createElement('img');
+img.src= cover;
+img_cont.appendChild(img);
+
+var div_content= document.createElement('div');
+div_content.className="proj-cont";
+img_cont.appendChild(div_content);
+
+var proj_nome= document.createElement('h2');
 proj_nome.innerText = data[i].nome;
-proj.appendChild(proj_nome);
+div_content.appendChild(proj_nome);
 
+var proj_data= document.createElement('h3');
+proj_data.innerText = data[i].data;
+div_content.appendChild(proj_data);
 
+var ambito = document.createElement('h4');
+ambito.className="ambito";
+if (data[i].ambito =='academico') ambito.innerText= "Académico";
+else if( data[i].ambito =='extracurricular') ambito.innerText = "Extracurricular";
+proj.appendChild(ambito);
 }
 
-
-
-
-
 </script>
+<script src='filter.js'></script>
+<script src='openProject.js'></script>
+
+
 
 </html>
