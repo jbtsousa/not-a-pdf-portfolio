@@ -8,6 +8,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/general.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/proj.css'>
+
     <script src='projetos-data.js'></script>
 
 </head>
@@ -20,6 +22,13 @@
         <button id="web" class="but" onClick="filterSelection('web')"> Web</button>
         <button id="video" class="but" onClick="filterSelection('vídeo')">Vídeo </button>
         <button id="som" class="but" onClick="filterSelection('design-de-som')">Design de Som</button>
+      </div>
+      <div id="openproj">
+          <a class="close" onClick="closeProj()"></a>
+          <h2 id="title"></h2>
+          <p id="desc1"></p>
+            <p id="desc2"></p>
+
       </div>
 
     <div id="outer-container">
@@ -36,7 +45,9 @@
             </section>
 
             <section id="projetos">
-                <div id="cont-projetos"></div>
+                <ul id="cont-projetos">
+     
+                </ul>
 
             </section>
         </div> 
@@ -47,15 +58,18 @@
 <script>
 
 
+
 var num_proj= data.length;
 var projetos = document.getElementById("cont-projetos");
 
 for(var i=0;i<num_proj;i++){
     
-var proj = document.createElement('div');
+var proj = document.createElement('li');
 var tag = data[i].tags.join(" ");
 proj.className= "proj " + tag ;
 projetos.appendChild(proj);
+
+proj.appendChild
 
 var cover= data[i].galeria[0];
 var img_cont = document.createElement('div');
@@ -87,9 +101,30 @@ else if( data[i].ambito =='extracurricular') ambito.innerText = "Extracurricular
 proj.appendChild(ambito);
 }
 
+function ifOpen(){
+
+if (document.getElementById('openproj').style.opacity == "1"){
+console.log("project opened")
+var id_proj =  openedProj.className;
+
+var title = document.getElementById('title');
+var d1= document.getElementById('desc1');
+var d2= document.getElementById('desc2');
+
+ title.innerText = data[id_proj].nome;
+ d1.innerText = data[id_proj].descricao;
+ d2.innerText = data[id_proj].descricao2;
+
+
+}
+
+}
+
+
 </script>
-<script src='filter.js'></script>
 <script src='openProject.js'></script>
+<script src='filter.js'></script>
+
 
 
 

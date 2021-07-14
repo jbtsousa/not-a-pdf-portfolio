@@ -1,6 +1,6 @@
 const data =[
       {
-        "id":2,
+        "id":0,
         "nome": "Visualizador de Música",
         "data": "junho 2019",
         "ambito":"academico",
@@ -15,7 +15,7 @@ const data =[
         "descricao2": "Projeto desenvolvido no âmbito da disciplina Programação Multimédia em conjunto com Carlota Silva e Sofia Santos sob orientação do docente Pedro Martins."
       },
       {
-        "id":3,
+        "id":1,
         "nome": "Animação Palavra",
         "data": "outubro 2019",
         "ambito":"academico",
@@ -30,7 +30,7 @@ const data =[
         "descricao2": "Projeto desenvolvido no âmbito da disciplina Tipografia em Meios Digitais sob orientação dos docentes Paul Hardman e Nuno Coelho."
       },
       {
-        "id":4,
+        "id":2,
         "nome": "Moving Poster",
         "data": "novembro 2019",
         "ambito":"academico",
@@ -47,7 +47,7 @@ const data =[
 
       },
       {
-        "id":5,
+        "id":3,
         "nome": "Website Canil",
         "data": "novembro 2019",
         "ambito":"academico",
@@ -62,7 +62,7 @@ const data =[
         "descricao2":"Projeto desenvolvido no âmbito da disciplina Tecnologias de Internet em conjunto com Carlota Silva."
       },
       {
-        "id":6,
+        "id":4,
         "nome": "The Invention of Modern Age - Still Film",
         "data": "março 2020",
         "ambito":"academico",
@@ -73,12 +73,13 @@ const data =[
         "galeria": [
           "https://i.imgur.com/N4neKiP.png?1"
         ],
+        "video":"https://youtu.be/aw3uTHjfet8",
         "descricao": "Produção de um curto filme, recorrendo a apenas imagens e som.",
         "descricao2": "Projeto desenvolvido no âmbito da disciplina Produção Audiovisual juntamente com Carlota Silva e Ricardo Sacadura e sob a orientação dos docentes Bruna Sousa, Nuno Coelho e Paul Hardman."
 
       },
       {
-        "id":7,
+        "id":5,
         "nome": "Recrutamento jeKnowledge I",
         "data": "março 2020",
         "ambito":"extracurricular",
@@ -92,7 +93,7 @@ const data =[
         "descricao": "Campanha de recrutamento do primeiro semestre da júnior empresa jeKnowledge."
       },
       {
-        "id":8,
+        "id":6,
         "nome": "Rebranding AlfoMedia",
         "data": "maio 2020",
         "ambito":"academico",
@@ -108,7 +109,7 @@ const data =[
 
       },
       {
-        "id":9,
+        "id":7,
         "nome": "Indigrow",
         "data": "maio 2020",
         "ambito":"academico",
@@ -119,11 +120,12 @@ const data =[
         "galeria": [
           "https://i.imgur.com/2vS6QV4.jpg?1"
         ],
+        "video":"https://youtu.be/L8HUwGxXZ34",
         "descricao": "O Anil, desde a primeira extração da planta Indigofera até atualmente, sofreu um intensa industrialização. Originalmente, o processo de extração da cor da natureza para a usar para tingir tecido era bastante difícil e demorado, os tecidos tingidos deste específico azul eram extremamente raros e caros. Hoje, é tão comum quanto a ganga.Quase tudo o que nos rodeia está ou está para passar por este processo de industrialização. O que tanto pode ser vantajoso como pode não o ser.Com este vídeo, o nosso objetivo é despertar no espectador a refIexão relativamente às ações do ser humano no mundo.", 
-        "descricao2":"Projeto desenvolvido no âmbito da disciplina de Comunicação Multimédia, sob orientação dos docentes Tiago Martins, Paul Hardman e Nuno Coelho."
+        "descricao2":"Projeto desenvolvido no âmbito da disciplina de Projeto II- Audiovisual, sob orientação dos docentes Tiago Martins, Paul Hardman e Nuno Coelho."
       },
       {
-        "id":10,
+        "id":8,
         "nome": "Apropriação Fotográfica - Ryan McGinley",
         "data": "julho 2020",
         "ambito":"academico",
@@ -137,7 +139,7 @@ const data =[
         "descrição2":"Desenvolvido no âmbito da unidade curricular de Fotografia e Composição sob orientação do professor José Maças de Carvalho."
       },
       {
-        "id":11,
+        "id":9,
         "nome": "Recrutamento jeKnowledge II",
         "data": "outubro 2020",        
         "ambito":"extracurricular",
@@ -151,21 +153,7 @@ const data =[
         "descricao": "Campanha de recrutamento do segundo semestre da júnior empresa jeKnowledge."
       },
       {
-        "id":12,
-        "nome": "11 Champions",
-        "data": "novembro 2020",
-        "ambito":"academico",
-        "tags": [
-          "coding",
-          "académico"
-        ],
-        "galeria": [
-          ""
-        ],
-        "descricao": "Projeto desenvolvido no âmbito da disciplina de Sistemas Informáticos, com o colega Manuel Matos."
-      },
-      {
-        "id":13,
+        "id":10,
         "nome": "O Último Sofrimento - Editorial e Multimédia",
         "data": "janeiro 2021",
         "ambito":"academico",
@@ -180,7 +168,7 @@ const data =[
         "descricao": "Projeto desenvolvido no âmbito da disciplina de Projeto 3 - Aplicações Multimédia em conjunto com os colegas Carlota Silva e Diogo Ribeiro sob orientação dos docentes Ana Boavida e Luís Pereira ."
       },
       {
-        "id":14,
+        "id":11,
         "nome": "Brochura para Teatro das Figuras",
         "data": "março 2021",
         "ambito":"academico",
@@ -194,7 +182,7 @@ const data =[
         "descricao": "Projeto desenvolvido no âmbito da disciplina de Tipografia sob orientação da docente Ana Boavida."
       },
       {
-        "id":15,
+        "id":12,
         "nome": "Website ShiftAPPens",
         "data": "abril 2021",
         "ambito":"academico",
@@ -208,7 +196,7 @@ const data =[
         "descricao": "Desenvolvimento (front-end) do website da edição de 2021 do evento Shift APPens, recorrendo a HTML, CSS e JavaScript. Evento organizado pelo Núcleo de Estudantes de Informátia e pela jeKnowledge."
       },
       {
-        "id":16,
+        "id":13,
         "nome": "Balada Tipográfica",
         "data": "maio 2021",
         "ambito":"academico",
@@ -221,11 +209,12 @@ const data =[
         "galeria": [
           "https://i.imgur.com/FrdD9mg.png"
         ],
-        "descricao": "Projeto desenvolvido no âmbito da disciplina de Tipografia."
+        "video":"https://youtu.be/o0LuR7O8q8A",
+        "descricao": "Projeto desenvolvido no âmbito da disciplina de Projeto 4 - Multimédia Interativo com as colegas Francisca Sousa e Maria Francisca Laurenano sob orientação dos docentes Pedro Martins, Luís Pereira e Paula Silva."
       },
       {
-        "id":17,
-        "nome": "MindApp",
+        "id":14,
+        "nome": "MeditApp",
         "data": "junho 2021",
         "ambito":"academico",
         "tags": [
@@ -235,10 +224,11 @@ const data =[
         "galeria": [
           ""
         ],
+        "video": "https://youtu.be/a2vN_8GzPD8",
         "descricao": "Projeto desenvolvido no âmbito da disciplina de Design de Meios Interativos."
       },
       {
-        "id":18,
+        "id":15,
         "nome": "jeKfolio",
         "data": "agosto 2021",
         "ambito":"extracurricular",
