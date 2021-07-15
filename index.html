@@ -11,6 +11,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/proj.css'>
 
     <script src='projetos-data.js'></script>
+    <script src='carousel.js'></script>
 
 </head>
 <body>
@@ -25,10 +26,29 @@
       </div>
       <div id="openproj">
           <a class="close" onClick="closeProj()"></a>
+          <div id= "open-cont">
           <h2 id="title"></h2>
-          <p id="desc1"></p>
-            <p id="desc2"></p>
+          <div id="projeto-conteudo">
+            <div id="carousel-cont">
+                <a class="prev" onClick="plusSlides(-1)">&#10094;</a>
 
+                    <div id="carousel">
+                    <!-- qd fecha apaga o q esta aqui -->
+                    </div>
+                <a class="next" onClick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div id="text-cont">
+                <h3 id="data-open"></h3>
+            </br></br>
+                <p id="desc1"></p>
+            </br></br>
+                <p id="desc2"></p>
+            </div>
+        </div>
+        <iframe width="560" height="315"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        </div>
       </div>
 
     <div id="outer-container">
@@ -39,8 +59,6 @@
                 <div id="intro-cont">
                 <h1>this is not a pdf portfolio</h1>
                 <p>é um website, porque websites são mais divertidos que pdf's </p>
-            
-
                 </div>
             </section>
 
@@ -101,29 +119,74 @@ else if( data[i].ambito =='extracurricular') ambito.innerText = "Extracurricular
 proj.appendChild(ambito);
 }
 
+
+
+
+
+// PROJETO ABERTO
 function ifOpen(){
 
+
 if (document.getElementById('openproj').style.opacity == "1"){
-console.log("project opened")
 var id_proj =  openedProj.className;
 
 var title = document.getElementById('title');
+
+var gallery = document.getElementById("carousel");
+var gallery_array = data[id_proj].galeria;
+
+
+for (var i=0; i<gallery_array.length;i++){
+    var slides = document.createElement('div');
+    slides.className ="mySlides";
+    gallery.appendChild(slides);
+    var img = document.createElement('img');
+    img.src = gallery_array[i];
+    slides.appendChild(img);
+}
+var mySlides = document.getElementsByClassName("mySlides");
+mySlides[0].style.display= "block";
+
+
+var data_open= document.getElementById('data-open');
 var d1= document.getElementById('desc1');
 var d2= document.getElementById('desc2');
 
  title.innerText = data[id_proj].nome;
+ data_open.innerText = data[id_proj].data;
  d1.innerText = data[id_proj].descricao;
  d2.innerText = data[id_proj].descricao2;
 
+ var textCont = document.getElementById("text-cont");
 
+ if (data[id_proj].url != undefined){
+     var url=document.createElement('a');
+     url.className= "url";
+     url.id= "url";
+     url.innerHTML= "Visitar Website";
+     url.target="_blank";
+     url.href = data[id_proj].url;
+     textCont.appendChild(url);
+ }
+
+ if (data[id_proj].video != undefined){
+    var videourl=document.createElement('a');
+     videourl.className= "url";
+     videourl.id= "videourl"
+     videourl.innerHTML= "Ver vídeo";
+     videourl.target="_blank";
+     videourl.href = data[id_proj].video;
+     textCont.appendChild(videourl);
 }
 
-}
 
+}}
 
 </script>
+
 <script src='openProject.js'></script>
 <script src='filter.js'></script>
+
 
 
 

@@ -12,13 +12,10 @@ function proj(e) {
       var id = e.target.id;
       openedProj.style.display = "inline";
       openedProj.style.opacity = "100%";
-
       openedProj.className=id;
   
       }
       ifOpen();
-
-  
 }
 
 function closeProj(){
@@ -26,6 +23,19 @@ function closeProj(){
     openedProj.style.display = "none";
     openedProj.style.opacity = "0%";
     openedProj.className="";
+
+    // APAGAR FOTOS DO CARROUSSEL
+    document.getElementById("carousel").innerHTML = '';
+    // APAGAR URL
+    if (document.getElementById("url" != null ))  document.getElementById("url").remove();
+    //APAGAR VIDEO
+    if (document.getElementById("videourl" != null )) document.getElementById("videourl").remove();
+
+    
+
+
+
+
   }
 
 }
