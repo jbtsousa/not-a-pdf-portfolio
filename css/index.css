@@ -102,10 +102,15 @@ box-shadow: 0px 0px 4px #ffff;transition: 0.3s;
     position: absolute;
     -ms-overflow-style: none;
   }
-
+  #intro-cont{
+    width:65%;
+  }
   #intro-cont h1{
     color:white;
     font-size: 4em;
+  }
+  #intro-cont h2{
+    font-size: 2.5em;
   }
   #intro-cont p{
     font-size: 1.5em;

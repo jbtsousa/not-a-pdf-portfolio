@@ -27,9 +27,11 @@ function closeProj(){
     // APAGAR FOTOS DO CARROUSSEL
     document.getElementById("carousel").innerHTML = '';
     // APAGAR URL
-    if (document.getElementById("url" != null ))  document.getElementById("url").remove();
+      document.getElementById("url").remove(); 
     //APAGAR VIDEO
-    if (document.getElementById("videourl" != null )) document.getElementById("videourl").remove();
+
+      document.getElementById("videourl").remove();
+    
 
     
 

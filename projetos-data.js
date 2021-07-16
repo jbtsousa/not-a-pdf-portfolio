@@ -10,10 +10,11 @@ const data =[
       "coding"
     ],
     "galeria": [
-      ""
+      "https://i.imgur.com/W5nmg2g.jpg",
     ],
     "url":"https://jekfolio.jeknowledge.com/",
-    "descricao": "Desenvolvimento de um portfólio em formato de website para a júnior empresa jeKnowledge."
+    "descricao": "Desenho e desenvolvimento de um portfólio, em React.JS, para a júnior empresa jeKnowledge.",
+    "descricao2":""
   },
   {
     "id":1,
@@ -25,7 +26,7 @@ const data =[
       "ux/ui"
     ],
     "galeria": [
-      ""
+      "https://media.giphy.com/media/Fkakcn4PmS9VzLfCaL/giphy.gif","https://i.imgur.com/S7eIXar.png"
     ],
     "video": "https://youtu.be/a2vN_8GzPD8",
     "descricao": "Projeto desenvolvido no âmbito da disciplina de Design de Meios Interativos."
@@ -39,7 +40,7 @@ const data =[
       "tipografia",
       "web",
       "interação",
-      "design gráfico"
+      "designgrafico"
     ],
     "galeria": [
       "https://i.imgur.com/XnJaXHs.png","https://i.imgur.com/ZRInjU1.png", "https://i.imgur.com/k9tFQ0S.png", "https://i.imgur.com/R4gJBYh.png"
@@ -59,10 +60,11 @@ const data =[
           "web"
         ],
         "galeria": [
-          "https://i.imgur.com/xemOp1S.png?1"
+          "https://i.imgur.com/IZmJsiN.png","https://i.imgur.com/xemOp1S.png?1"
         ],
         "url": "https://shiftappens.com/",
-        "descricao": "Desenvolvimento (front-end) do website da edição de 2021 do evento Shift APPens, recorrendo a HTML, CSS e JavaScript. Evento organizado pelo Núcleo de Estudantes de Informátia e pela jeKnowledge."
+        "descricao": "Desenvolvimento (front-end) do website da edição de 2021 do evento Shift APPens, recorrendo a HTML, CSS e JavaScript.", 
+        "descricao2": "Evento organizado pelo Núcleo de Estudantes de Informátia e pela jeKnowledge."
       },
       {
         "id":4,
@@ -71,13 +73,13 @@ const data =[
         "ambito":"academico",
         "tags": [
           "tipografia",
-          "design gráfico"
+          "designgrafico"
         ],
         "galeria": [
-          "https://i.imgur.com/PxCnOTP.png", "https://i.imgur.com/n0UJejI.jpg", "https://i.imgur.com/bC2gZiU.jpg"
+          "https://i.imgur.com/n0UJejI.jpg","https://i.imgur.com/YMednKD.jpg", "https://i.imgur.com/bC2gZiU.jpg"
         ],
         "descricao":"Brochura de divulgação de eventos para uma instituição cultural. Escolhi o Teatro das Figuras e baseando-me nas linhas verticias do seu logótipo, tornei-as num elemento gráfico de realce na brochura.",
-        "descricao2": "Projeto desenvolvido no âmbito da disciplina de Tipografia sob orientação da docente Ana Boavida."
+        "descricao2": "Projeto desenvolvido no âmbito da disciplina de Tipografia sob orientação dos docente Ana Boavida e João Bicker."
       },
       {
         "id":5,
@@ -85,14 +87,15 @@ const data =[
         "data": "janeiro 2021",
         "ambito":"academico",
         "tags": [
-          "tipografia",
           "web",
-          "design gráfico"
+          "designgrafico"
         ],
         "galeria": [
-          ""
+          "https://i.imgur.com/tlb6TVV.jpg","https://i.imgur.com/tlb6TVV.jpg","https://i.imgur.com/2NrYqPh.png"
         ],
-        "descricao": "Projeto desenvolvido no âmbito da disciplina de Projeto 3 - Aplicações Multimédia em conjunto com os colegas Carlota Silva e Diogo Ribeiro sob orientação dos docentes Ana Boavida e Luís Pereira ."
+        "url":"https://student.dei.uc.pt/~joanasousa/projeto3_mult/",
+        "descricao":"Adaptação do conto 'O Último Sofrimento' de Franz Kafka aos formatos editorial e multimédia.",
+        "descricao2": "Projeto desenvolvido no âmbito da disciplina de Projeto 3 - Aplicações Multimédia em conjunto com os colegas Carlota Silva e Diogo Ribeiro sob orientação dos docentes Pedro Martins, Ana Boavida e Luís Pereira ."
       },
       {
         "id":6,
@@ -100,7 +103,7 @@ const data =[
         "data": "outubro 2020",        
         "ambito":"extracurricular",
         "tags": [
-          "design gráfico",
+          "designgrafico",
           "comunicação"
         ],
         "galeria": [
@@ -115,13 +118,13 @@ const data =[
         "data": "julho 2020",
         "ambito":"extracurricular",
         "tags": [
-          "design"
+          "designgrafico"
         ],
         "galeria": [
           "https://media.giphy.com/media/w0Q0BBhMEoZVWurkk3/giphy.gif", "https://media.giphy.com/media/w0Q0BBhMEoZVWurkk3/giphy.gif","https://media.giphy.com/media/u9XmNL8jRifXDBJo3X/giphy.gif", "https://media.giphy.com/media/wpRZDK2BOSLNQe6yVw/giphy.gif"
         ],
-        "descricao": "Nestas publicações de anunciação de oradores do evento, tinha o objetivo de personalizar a animação do triângulo (elemento gráfico do evento) ao tema da respectiva apresentação do orador.",
-        "descricao2":"Para a Lime Conference, evento organizado pela júnior empresa jeKnowledge"
+        "descricao": "Nestas publicações de anunciação de oradores do evento, tinha o objetivo de personalizar a animação do triângulo (ícone do logótipo do evento) ao tema da respectiva apresentação do orador.",
+        "descricao2":"Para a Lime Conference, evento organizado pela júnior empresa jeKnowledge."
       }
       ,
       {
@@ -133,10 +136,10 @@ const data =[
           "fotografia"
         ],
         "galeria": [
-          "https://i.imgur.com/JqnRm0K.png"
+          "https://i.imgur.com/JqnRm0K.png","https://i.imgur.com/vHdBPHr.jpg","https://i.imgur.com/WNlMlBR.jpg","https://i.imgur.com/5xmRG9P.jpg", "https://i.imgur.com/4zKjNtZ.jpg", "https://i.imgur.com/IrFeWkS.jpg"
         ],
         "descricao": "Este projeto fotográfico é inspirado no trabalho do fotógrafo e artista Ryan Mcginley. À semelhança do seu trabalho, quis capturar o corpo humano de forma intimista mas harmoniosa.",
-        "descrição2":"Desenvolvido no âmbito da unidade curricular de Fotografia e Composição sob orientação do professor José Maças de Carvalho."
+        "descricao2":"Desenvolvido no âmbito da unidade curricular de Fotografia e Composição sob orientação do professor José Maças de Carvalho."
       }
       ,
       {
@@ -149,7 +152,7 @@ const data =[
           "design de som"
         ],
         "galeria": [
-          "https://i.imgur.com/2vS6QV4.jpg?1"
+          "https://i.imgur.com/2vS6QV4.jpg?1", "https://media.giphy.com/media/2fdznsu6vRuTVmlVHi/giphy.gif"
         ],
         "video":"https://youtu.be/L8HUwGxXZ34",
         "descricao": "O Anil, desde a primeira extração da planta Indigofera até atualmente, sofreu um intensa industrialização. Originalmente, o processo de extração da cor da natureza para a usar para tingir tecido era bastante difícil e demorado, os tecidos tingidos deste específico azul eram extremamente raros e caros. Hoje, é tão comum quanto a ganga.Quase tudo o que nos rodeia está ou está para passar por este processo de industrialização. O que tanto pode ser vantajoso como pode não o ser.Com este vídeo, o nosso objetivo é despertar no espectador a refIexão relativamente às ações do ser humano no mundo.", 
@@ -157,27 +160,11 @@ const data =[
       },
       {
         "id":10,
-        "nome": "Rebranding AlfoMedia",
-        "data": "maio 2020",
-        "ambito":"academico",
-        "tags": [
-          "design gráfico",
-          "comunicação"
-        ],
-        "galeria": [
-          "https://i.imgur.com/ahF3joL.png"
-        ],
-        "descricao": "Para este projeto, tivemos que reinventar uma plataforma. Escolhemos o canal de youtube AlfoMedia, demos-lhe uma nova identidade gráfica e, focando-nos no conceito de Transmedia desenvolvemos estratégias de comunicação com o objetivo de aumentar o seu 'engagment' com o público.",
-        "descricao2": "Desenvolvido no âmbito da disciplina de Comunicação Multimédia juntamente com Carlota Silva sob orientação do professor António Monteiro."
-
-      },
-      {
-        "id":11,
         "nome": "Recrutamento jeKnowledge I",
         "data": "março 2020",
         "ambito":"extracurricular",
         "tags": [
-          "design gráfico",
+          "designgrafico",
           "comunicação"        
         ],
         "galeria": [
@@ -186,7 +173,7 @@ const data =[
         "descricao": "Campanha de recrutamento do primeiro semestre da júnior empresa jeKnowledge."
       },
       {
-        "id":12,
+        "id":11,
         "nome": "The Invention of Modern Age - Still Film",
         "data": "março 2020",
         "ambito":"academico",
@@ -203,6 +190,22 @@ const data =[
 
       }, 
       {
+        "id":12,
+        "nome": "Quarentinada",
+        "data": "2020",
+        "ambito":"extracurricular",
+        "tags": [
+          "tipografia"
+        ],
+        "galeria": [
+          "https://i.imgur.com/qOuxjl1.png","https://i.imgur.com/VI1qLjN.jpg","https://i.imgur.com/qXFPAod.jpg", "https://i.imgur.com/5ai8t05.jpg"
+        ],
+        "descricao": "Pintar trazia-me calma em meses tão calmos que tornavam stressantes.",
+        "descricao2": "Pandemia"
+
+      },
+
+      {
         "id":13,
         "nome": "Moving Poster",
         "data": "novembro 2019",
@@ -215,7 +218,25 @@ const data =[
         "galeria": [
           "https://i.imgur.com/1oaFF3Z.png"
         ],
-        "descricao": "Cartaz elaborado para o espetáculo 'Uníssono: Composição para cinco bailarinos'. Para simular a composição dos vários bailarinos, gravei os meus pés e coloquei a mesma gravação sobreposta, com opacidade como fundo do cartaz. Aqui entra a interação, recorrendo à biblioteca de som do Processing",
+        "descricao": "Cartaz elaborado para o espetáculo 'Uníssono: Composição para cinco bailarinos'. Para simular a composição dos vários bailarinos, gravei os meus pés e coloquei a mesma gravação sobreposta cinco vezes, com transparência, como fundo do cartaz. Aqui entra a interação, recorrendo à biblioteca de som do Processing, o programa recebe input de som (voz ou música) e os vídeos aumentam  ",
+        "descricao2": "Projeto desenvolvido no âmbito da disciplina Tipografia em Meios Digitais sob orientação dos docentes Paul Hardman e Nuno Coelho."
+      }
+      ,
+
+      {
+        "id":13,
+        "nome": "Moving Poster",
+        "data": "novembro 2019",
+        "ambito":"academico",
+        "tags": [
+          "coding",
+          "tipografia",
+          "interação"
+        ],
+        "galeria": [
+          "https://i.imgur.com/1oaFF3Z.png"
+        ],
+        "descricao": "Cartaz elaborado para o espetáculo 'Uníssono: Composição para cinco bailarinos'. Para simular a composição dos vários bailarinos, gravei os meus pés e coloquei a mesma gravação sobreposta cinco vezes, com transparência, como fundo do cartaz. Aqui entra a interação, recorrendo à biblioteca de som do Processing, o programa recebe input de som (voz ou música) e os vídeos aumentam  ",
         "descricao2": "Projeto desenvolvido no âmbito da disciplina Tipografia em Meios Digitais sob orientação dos docentes Paul Hardman e Nuno Coelho."
 
       }
