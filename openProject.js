@@ -26,11 +26,15 @@ function closeProj(){
 
     // APAGAR FOTOS DO CARROUSSEL
     document.getElementById("carousel").innerHTML = '';
+    document.getElementById("cont-url").remove();
+    document.getElementById("cont-url").innerHTML = '';
+
+
     // APAGAR URL
-      document.getElementById("url").remove(); 
+      //document.getElementById("url").remove(); 
     //APAGAR VIDEO
 
-      document.getElementById("videourl").remove();
+      //document.getElementById("videourl").remove();
     
 
     

@@ -26,10 +26,11 @@ const data =[
       "ux/ui"
     ],
     "galeria": [
-      "https://media.giphy.com/media/Fkakcn4PmS9VzLfCaL/giphy.gif","https://i.imgur.com/S7eIXar.png"
+      "https://media.giphy.com/media/Fkakcn4PmS9VzLfCaL/giphy.gif","https://i.imgur.com/xYwI0XF.png"
     ],
     "video": "https://youtu.be/a2vN_8GzPD8",
-    "descricao": "Projeto desenvolvido no âmbito da disciplina de Design de Meios Interativos."
+    "descricao": "Projeto cuja principal finalidade foi a aplicação prática dos conceitos, ferramentas, e processos de Design de Interação",
+    "descricao2": "Desenvolvido no âmbito da disciplina de Design de Meios Interativos,com os colegas Alexandre Lucas e Diogo Ribeiro. Sob orientação do professor Jorge Cardoso."
   },
   {
     "id":2,
@@ -91,7 +92,7 @@ const data =[
           "designgrafico"
         ],
         "galeria": [
-          "https://i.imgur.com/tlb6TVV.jpg","https://i.imgur.com/tlb6TVV.jpg","https://i.imgur.com/2NrYqPh.png"
+          "https://i.imgur.com/tlb6TVV.jpg","https://i.imgur.com/tlb6TVV.jpg","https://i.imgur.com/qhXzb1S.jpg","https://i.imgur.com/2NrYqPh.png", "https://i.imgur.com/wZhSRQA.jpg","https://i.imgur.com/pUBW9lk.jpg"
         ],
         "url":"https://student.dei.uc.pt/~joanasousa/projeto3_mult/",
         "descricao":"Adaptação do conto 'O Último Sofrimento' de Franz Kafka aos formatos editorial e multimédia.",
@@ -109,7 +110,8 @@ const data =[
         "galeria": [
           "https://i.imgur.com/oISc6CB.png", "https://media.giphy.com/media/M1ovvnjg7UO6UNIQyE/giphy.gif", "https://media.giphy.com/media/M1ovvnjg7UO6UNIQyE/giphy.gif", "https://i.imgur.com/YbJdzRm.jpg"
         ],
-        "descricao": "Campanha de recrutamento do segundo semestre da júnior empresa jeKnowledge."
+        "descricao":"Campanha de recrutamento do primeiro semestre do ano letivo 2020/2021 da júnior empresa jeKnowledge.",
+        "descricao2": ""
       }
       ,
       {
@@ -168,9 +170,10 @@ const data =[
           "comunicação"        
         ],
         "galeria": [
-          "https://i.imgur.com/Qc53bsS.png"
+          "https://i.imgur.com/Qc53bsS.png", "https://i.imgur.com/7TA9UVC.png", "https://i.imgur.com/ppvvz57.png", "https://i.imgur.com/ek0hV99.png", "https://i.imgur.com/d0ixd9K.png"
         ],
-        "descricao": "Campanha de recrutamento do primeiro semestre da júnior empresa jeKnowledge."
+        "descricao": "O tema que me foi apresentado para este Recrutamento foi 'Memórias', com isto em mente decidi fazer, para cada um dos cargos que a júnior empresa procurava ocupar, uma analogia entre o nosso passado e presente.",
+        "descricao2": "Campanha de recrutamento do primeiro semestre da júnior empresa jeKnowledge."
       },
       {
         "id":11,
@@ -218,26 +221,25 @@ const data =[
         "galeria": [
           "https://i.imgur.com/1oaFF3Z.png"
         ],
+        "url": "https://youtu.be/cOVfYFEleD4",
         "descricao": "Cartaz elaborado para o espetáculo 'Uníssono: Composição para cinco bailarinos'. Para simular a composição dos vários bailarinos, gravei os meus pés e coloquei a mesma gravação sobreposta cinco vezes, com transparência, como fundo do cartaz. Aqui entra a interação, recorrendo à biblioteca de som do Processing, o programa recebe input de som (voz ou música) e os vídeos aumentam  ",
         "descricao2": "Projeto desenvolvido no âmbito da disciplina Tipografia em Meios Digitais sob orientação dos docentes Paul Hardman e Nuno Coelho."
       }
       ,
 
       {
-        "id":13,
-        "nome": "Moving Poster",
-        "data": "novembro 2019",
-        "ambito":"academico",
+        "id":14,
+        "nome": "Fotografia Analógica",
+        "data": "",
+        "ambito":"extracurricular",
         "tags": [
-          "coding",
-          "tipografia",
-          "interação"
+          "fotografia",
         ],
         "galeria": [
-          "https://i.imgur.com/1oaFF3Z.png"
+          "https://i.imgur.com/CeOwSlE.jpg","https://i.imgur.com/OTS4j2G.jpg","https://i.imgur.com/I27MFhu.jpg","https://i.imgur.com/vpMnqUg.jpg","https://i.imgur.com/5Ycz2FK.jpg","https://i.imgur.com/KsRyDC9.jpg","https://i.imgur.com/2aKwuTt.jpg", "https://i.imgur.com/IViEBfL.jpg", "https://i.imgur.com/8uMMF1Q.jpg", "https://i.imgur.com/Sg0Qe1C.jpg"
         ],
-        "descricao": "Cartaz elaborado para o espetáculo 'Uníssono: Composição para cinco bailarinos'. Para simular a composição dos vários bailarinos, gravei os meus pés e coloquei a mesma gravação sobreposta cinco vezes, com transparência, como fundo do cartaz. Aqui entra a interação, recorrendo à biblioteca de som do Processing, o programa recebe input de som (voz ou música) e os vídeos aumentam  ",
-        "descricao2": "Projeto desenvolvido no âmbito da disciplina Tipografia em Meios Digitais sob orientação dos docentes Paul Hardman e Nuno Coelho."
+        "descricao": "Ao longo dos últimos anos tenho desenvolvido uma paixão pela fotografia analógica. O que mais gosto de fotografar são as pessoas que me rodeiam.",
+        "descricao2": "Publico todas as fotografias que capturo num perfil de instagram @analog_jbt"
 
       }
       

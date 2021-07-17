@@ -162,6 +162,11 @@ var d2= document.getElementById('desc2');
 
  var textCont = document.getElementById("text-cont");
 
+ var contURL = document.createElement('div');
+ textCont.appendChild(contURL);
+
+ contURL.id= "cont-url"
+
  if (data[id_proj].url != undefined){
      var url=document.createElement('a');
      url.className= "url";
@@ -169,7 +174,7 @@ var d2= document.getElementById('desc2');
      url.innerHTML= "Visitar Website";
      url.target="_blank";
      url.href = data[id_proj].url;
-     textCont.appendChild(url);
+     contURL.appendChild(url);
  }
 
  if (data[id_proj].video != undefined){
@@ -179,7 +184,7 @@ var d2= document.getElementById('desc2');
      videourl.innerHTML= "Ver vídeo";
      videourl.target="_blank";
      videourl.href = data[id_proj].video;
-     textCont.appendChild(videourl);
+     contURL.appendChild(videourl);
 }
 
 
